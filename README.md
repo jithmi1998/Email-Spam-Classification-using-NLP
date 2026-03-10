@@ -21,15 +21,16 @@ The dataset contains email text and a binary label indicating whether the email 
 
 **Steps Performed**
 1. Uploaded the spam email dataset
-2. Performed data exploration and visualization
+2. Performed data exploration and visualization to understand the dataset structure and distribution of spam and non-spam emails using Matplotlib.
 3. Cleaned email text using NLP preprocessing techniques
 4. Removed punctuation, numbers, and stopwords
 5. Converted text into numerical features using TF-IDF vectorization
 6. Split the dataset into training and testing sets
 7. Trained a Multinomial Naive Bayes classifier
 8. Evaluated the model using accuracy, precision, recall, and F1-score
-9. Visualized results using a confusion matrix
-10. Prediction testing
+9. Visualized results using a confusion matrix generated with Matplotlib
+10. Tested the trained model using custom email example
+11. Saved the trained model and TF-IDF vectorizer for future use.
 
 **Model Performance**
 1. Accuracy: 97.8%
